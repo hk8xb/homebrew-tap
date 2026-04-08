@@ -6,20 +6,20 @@ class Gentabase < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/hk8xb/gentabase-cli/releases/download/v#{version}/gentabase_darwin_arm64.tar.gz"
-      sha256 "16fe7cf72ce229dd44f9e96d15b1b897926d8b8d094b1c192c3aedd7e18ee7a4"
+      sha256 "ddeffd4a0867ba99babbb6e65d55acf313013d136bd60c0002aa3ad12464a75b"
     else
       url "https://github.com/hk8xb/gentabase-cli/releases/download/v#{version}/gentabase_darwin_amd64.tar.gz"
-      sha256 "70be47809df01afef431a75bd58dc0bc542ab4fe0fd0da09e9d76d3d215aa562"
+      sha256 "5b4f51a066d4310bfb2b9c506d565b1d56023419b7333783b98812eb8e1acfab"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/hk8xb/gentabase-cli/releases/download/v#{version}/gentabase_linux_arm64.tar.gz"
-      sha256 "a9f6024bcfc37300f0724c6d5b304658fdc744cc97b825c07ad8e27d199c8a44"
+      sha256 "27102259fa0d4a055631a900eaf5becaf6d87d1942d4cdbee43a117281e4988e"
     else
       url "https://github.com/hk8xb/gentabase-cli/releases/download/v#{version}/gentabase_linux_amd64.tar.gz"
-      sha256 "93c171052b0d6209c7bb0aa7b84ffcebae8c864fd622725139af22ddfb4a28ff"
+      sha256 "73844cbffb5061195bb42ed60658cbf491ebfc716a11804a27baf37180d8d76a"
     end
   end
 
